@@ -8,6 +8,6 @@ public class UnaryMinus implements Unary{
 
     @Override
     public int getPriority() {
-        return 0;
+        return 4;
     }
 }

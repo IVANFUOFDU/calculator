@@ -8,6 +8,6 @@ public class Plus implements Binary{
 
     @Override
     public int getPriority() {
-        return 0;
+        return 1;
     }
 }

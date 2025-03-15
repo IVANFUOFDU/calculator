@@ -8,6 +8,6 @@ public class MultiplyOperator implements Binary{
 
     @Override
     public int getPriority() {
-        return 0;
+        return 2;
     }
 }

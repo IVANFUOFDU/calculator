@@ -10,6 +10,6 @@ public class DivideOperator implements Binary{
 
     @Override
     public int getPriority() {
-        return 0;
+        return 2;
     }
 }
