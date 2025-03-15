@@ -8,7 +8,6 @@ import token.operator.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class Parser {
     private List<Token> tokens;
@@ -87,13 +86,6 @@ public class Parser {
 
             i++;
         }
-
-        tokens.forEach(new Consumer<Token>() {
-            @Override
-            public void accept(Token token) {
-                System.out.println(token.getClass().getSimpleName());
-            }
-        });
 
     }
 }
